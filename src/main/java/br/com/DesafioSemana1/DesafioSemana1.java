@@ -22,8 +22,16 @@ public class DesafioSemana1 {
             numeros.add(numero);
         }
 
-        System.out.println("Números convertidos:");
-        System.out.println(numeros);
+        double soma = 0;
+
+        for(double num : numeros) {
+            soma += num;
+        }
+
+        double media = soma / numeros.size();
+
+        System.out.println("Soma dos números: " + soma);
+        System.out.println("Média dos números:" + media);
 
         scanner.close();
     }
