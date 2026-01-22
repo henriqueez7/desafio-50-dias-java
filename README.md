@@ -1,19 +1,66 @@
-Desafio 50 Dias de Código – Java
-Dia 01 – Primeiro contato com o projeto
-Objetivo
+📅 Progresso – Semana 1 (Fundamentos)
+🟢 Dia 01 – Estrutura inicial e entrada de dados
 
-Neste primeiro dia do desafio, o objetivo foi criar a estrutura inicial do projeto em Java e aprender a ler dados digitados pelo usuário no terminal. A ideia foi garantir que o programa estivesse funcionando corretamente antes de avançar para lógicas mais complexas.
+O que foi feito:
 
-O que foi feito
-
-Criação da classe principal do programa
+Criação da classe principal do projeto
 
 Implementação do método main
 
-Leitura de dados digitados pelo usuário usando Scanner
+Leitura de dados digitados pelo usuário via terminal usando Scanner
 
 Exibição da entrada no console para conferência
 
-Como o programa funciona
+Aprendizados:
 
-O programa pede para o usuário digitar uma lista de números separados por espaço. Após a digitação, ele mostra exatamente o que foi informado.
+Estrutura básica de um programa Java
+
+Entrada e saída padrão
+
+🟢 Dia 02 – Processamento da entrada
+
+O que foi feito:
+
+Separação da entrada do usuário usando split
+
+Conversão dos valores de texto para números (double)
+
+Armazenamento dos números em uma lista (ArrayList)
+
+Aprendizados:
+
+Manipulação de Strings
+
+Uso de listas e laços de repetição
+
+🟢 Dia 03 – Cálculo de soma e média
+
+O que foi feito:
+
+Implementação do cálculo da soma dos números
+
+Cálculo da média utilizando o tamanho da lista
+
+Exibição dos resultados no console
+
+Aprendizados:
+
+Variável acumuladora
+
+Operações matemáticas básicas
+
+🟢 Dia 04 – Maior e menor número
+
+O que foi feito:
+
+Implementação da lógica para encontrar o maior valor da lista
+
+Implementação da lógica para encontrar o menor valor da lista
+
+Exibição completa dos resultados (soma, média, maior e menor)
+
+Aprendizados:
+
+Comparação de valores
+
+Uso de estruturas condicionais (if)

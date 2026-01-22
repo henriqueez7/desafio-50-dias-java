@@ -30,8 +30,22 @@ public class DesafioSemana1 {
 
         double media = soma / numeros.size();
 
+        double maior = numeros.get(0);
+        double menor = numeros.get(0);
+
+        for(double num : numeros) {
+            if(num > maior) {
+                maior = num;
+            }
+            if(num < menor) {
+                menor = num;
+            }
+        }
+
         System.out.println("Soma dos números: " + soma);
         System.out.println("Média dos números:" + media);
+        System.out.println("Maior número:" + maior);
+        System.out.println("Menor número:" + menor);
 
         scanner.close();
     }
